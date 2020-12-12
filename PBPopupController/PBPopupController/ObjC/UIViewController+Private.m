@@ -7,7 +7,15 @@
 //
 
 #import "PBPopupController.h"
+
+
+#if SWIFT_PACKAGE
+#import "PBPopupController-Swift.h"
+#else
 #import <PBPopupController/PBPopupController-Swift.h>
+#endif
+
+//#import <PBPopupController/PBPopupController-Swift.h>
 
 @import ObjectiveC;
 

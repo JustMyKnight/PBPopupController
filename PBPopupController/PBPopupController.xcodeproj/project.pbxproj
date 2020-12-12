@@ -7,27 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3202B69621CCC8C900201B6F /* PBPopupToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3202B69521CCC8C900201B6F /* PBPopupToolbar.swift */; };
-		32080BEE208715920017FECD /* PBPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32080BEC208715920017FECD /* PBPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32080C00208716140017FECD /* UIViewController+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32080BF8208716140017FECD /* UIViewController+Support.swift */; };
-		32080C02208716140017FECD /* UIViewController+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32080BFA208716140017FECD /* UIViewController+Private.swift */; };
-		32080C03208716140017FECD /* PBPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32080BFB208716140017FECD /* PBPopupController.swift */; };
-		32080C0920871C230017FECD /* UIViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 32080C0520871C220017FECD /* UIViewController+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32080C0B20871C230017FECD /* UIViewController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 32080C0720871C220017FECD /* UIViewController+Private.m */; };
-		323416E424619EFE0086E85A /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323416E324619EFE0086E85A /* CGVector.swift */; };
-		323416E7246286460086E85A /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323416E5246286450086E85A /* CGPoint.swift */; };
-		323416E8246286460086E85A /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323416E6246286450086E85A /* CGRect.swift */; };
-		3255993A209063AC009047FB /* PBChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32559939209063AC009047FB /* PBChevronView.swift */; };
-		3255993E2091BE00009047FB /* PBPopupCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3255993D2091BE00009047FB /* PBPopupCloseButton.swift */; };
-		325E5557209D9B8A0055E09F /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E5556209D9B8A0055E09F /* UIView+Snapshot.swift */; };
-		326DB7FE21A1733200E28986 /* PBPopupRoundShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326DB7FC21A16A6400E28986 /* PBPopupRoundShadowImageView.swift */; };
-		326ECE2621CF80580022AD43 /* PBPopupLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326ECE2521CF80580022AD43 /* PBPopupLogs.swift */; };
-		326ECE2821CF8CBD0022AD43 /* PBPopupBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326ECE2721CF8CBD0022AD43 /* PBPopupBar.swift */; };
-		328BDCE420DE09C300682698 /* CGMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BDCDD20DE09C300682698 /* CGMath.swift */; };
-		32AD7597217A3A6D002FFE17 /* PBPopupContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD7596217A3A6D002FFE17 /* PBPopupContentView.swift */; };
-		32B1E211209ABC2D00143DA6 /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1E210209ABC2D00143DA6 /* UIColor+Random.swift */; };
-		32BA2A9D20E88A3F00226FEE /* PBPopupInteractivePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA2A9C20E88A3F00226FEE /* PBPopupInteractivePresentationController.swift */; };
-		32C045B921A7DD840028DB85 /* PBPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325626DE20FC74AC008739D6 /* PBPopupPresentationController.swift */; };
+		3267B67525836477007F79C4 /* PBPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B66625836475007F79C4 /* PBPopupPresentationController.swift */; };
+		3267B67625836477007F79C4 /* PBPopupLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B66725836475007F79C4 /* PBPopupLogs.swift */; };
+		3267B67725836477007F79C4 /* PBPopupRoundShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B66825836475007F79C4 /* PBPopupRoundShadowImageView.swift */; };
+		3267B67825836477007F79C4 /* PBChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B66925836475007F79C4 /* PBChevronView.swift */; };
+		3267B67925836477007F79C4 /* UIViewController+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B66A25836476007F79C4 /* UIViewController+Support.swift */; };
+		3267B67A25836477007F79C4 /* PBPopupContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B66B25836476007F79C4 /* PBPopupContentView.swift */; };
+		3267B67B25836477007F79C4 /* PBPopupCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B66C25836476007F79C4 /* PBPopupCloseButton.swift */; };
+		3267B67C25836477007F79C4 /* PBPopupToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B66D25836476007F79C4 /* PBPopupToolbar.swift */; };
+		3267B67D25836477007F79C4 /* UIViewController+Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B66E25836476007F79C4 /* UIViewController+Private.swift */; };
+		3267B67E25836477007F79C4 /* UIView+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B66F25836476007F79C4 /* UIView+CornerRadius.swift */; };
+		3267B67F25836477007F79C4 /* PBPopupInteractivePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B67025836476007F79C4 /* PBPopupInteractivePresentationController.swift */; };
+		3267B68025836477007F79C4 /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B67125836476007F79C4 /* UIColor+Random.swift */; };
+		3267B68125836477007F79C4 /* PBPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B67225836476007F79C4 /* PBPopupController.swift */; };
+		3267B68225836477007F79C4 /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B67325836476007F79C4 /* UIView+Snapshot.swift */; };
+		3267B68325836477007F79C4 /* PBPopupBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B67425836476007F79C4 /* PBPopupBar.swift */; };
+		3267B6882583668B007F79C4 /* UIViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3267B6852583668B007F79C4 /* UIViewController+Private.h */; };
+		3267B6892583668B007F79C4 /* UIViewController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 3267B6862583668B007F79C4 /* UIViewController+Private.m */; };
+		3267B69425849C3F007F79C4 /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B68E25849C3F007F79C4 /* Exports.swift */; };
+		3267B69525849C3F007F79C4 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B68F25849C3F007F79C4 /* CGRect.swift */; };
+		3267B69625849C3F007F79C4 /* CGMathSwift in Resources */ = {isa = PBXBuildFile; fileRef = 3267B69025849C3F007F79C4 /* CGMathSwift */; };
+		3267B69725849C3F007F79C4 /* CGMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69125849C3F007F79C4 /* CGMath.swift */; };
+		3267B69825849C3F007F79C4 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69225849C3F007F79C4 /* CGPoint.swift */; };
+		3267B69925849C3F007F79C4 /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69325849C3F007F79C4 /* CGVector.swift */; };
+		3267B6A02584A818007F79C4 /* PBPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3267B6872583668B007F79C4 /* PBPopupController.h */; };
 		32DB35A8253495140099EB80 /* PBPopupEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB359E253495130099EB80 /* PBPopupEnvironment.swift */; };
 		32DB35A9253495140099EB80 /* PBPopupPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB359F253495130099EB80 /* PBPopupPreferences.swift */; };
 		32DB35AA253495140099EB80 /* PBPopupViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB35A0253495130099EB80 /* PBPopupViewWrapper.swift */; };
@@ -38,34 +41,36 @@
 		32DB35AF253495140099EB80 /* UIViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB35A5253495140099EB80 /* UIViewPreview.swift */; };
 		32DB35B0253495140099EB80 /* PBPopupState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB35A6253495140099EB80 /* PBPopupState.swift */; };
 		32DB35B1253495140099EB80 /* PBPopupUIContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB35A7253495140099EB80 /* PBPopupUIContentController.swift */; };
-		32E1F39D21AFCEEB009A1DF1 /* UIView+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E1F39C21AFCEEB009A1DF1 /* UIView+CornerRadius.swift */; };
 		32E52FE520DA1A2A00A6A11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E52FE420DA1A2A00A6A11E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3202B69521CCC8C900201B6F /* PBPopupToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBPopupToolbar.swift; sourceTree = "<group>"; };
 		32080BE9208715920017FECD /* PBPopupController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBPopupController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32080BEC208715920017FECD /* PBPopupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBPopupController.h; sourceTree = "<group>"; };
 		32080BED208715920017FECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32080BF8208716140017FECD /* UIViewController+Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Support.swift"; sourceTree = "<group>"; };
-		32080BFA208716140017FECD /* UIViewController+Private.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Private.swift"; sourceTree = "<group>"; };
-		32080BFB208716140017FECD /* PBPopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 3; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PBPopupController.swift; sourceTree = "<group>"; };
-		32080C0520871C220017FECD /* UIViewController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Private.h"; sourceTree = "<group>"; };
-		32080C0720871C220017FECD /* UIViewController+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Private.m"; sourceTree = "<group>"; };
-		323416E324619EFE0086E85A /* CGVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGVector.swift; sourceTree = "<group>"; };
-		323416E5246286450086E85A /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
-		323416E6246286450086E85A /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
-		32559939209063AC009047FB /* PBChevronView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBChevronView.swift; sourceTree = "<group>"; };
-		3255993D2091BE00009047FB /* PBPopupCloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBPopupCloseButton.swift; sourceTree = "<group>"; };
-		325626DE20FC74AC008739D6 /* PBPopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBPopupPresentationController.swift; sourceTree = "<group>"; };
-		325E5556209D9B8A0055E09F /* UIView+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshot.swift"; sourceTree = "<group>"; };
-		326DB7FC21A16A6400E28986 /* PBPopupRoundShadowImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBPopupRoundShadowImageView.swift; sourceTree = "<group>"; };
-		326ECE2521CF80580022AD43 /* PBPopupLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBPopupLogs.swift; sourceTree = "<group>"; };
-		326ECE2721CF8CBD0022AD43 /* PBPopupBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBPopupBar.swift; sourceTree = "<group>"; };
-		328BDCDD20DE09C300682698 /* CGMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGMath.swift; sourceTree = "<group>"; };
-		32AD7596217A3A6D002FFE17 /* PBPopupContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBPopupContentView.swift; sourceTree = "<group>"; };
-		32B1E210209ABC2D00143DA6 /* UIColor+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
-		32BA2A9C20E88A3F00226FEE /* PBPopupInteractivePresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBPopupInteractivePresentationController.swift; sourceTree = "<group>"; };
+		3267B66625836475007F79C4 /* PBPopupPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBPopupPresentationController.swift; path = Swift/PBPopupPresentationController.swift; sourceTree = "<group>"; };
+		3267B66725836475007F79C4 /* PBPopupLogs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBPopupLogs.swift; path = Swift/PBPopupLogs.swift; sourceTree = "<group>"; };
+		3267B66825836475007F79C4 /* PBPopupRoundShadowImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBPopupRoundShadowImageView.swift; path = Swift/PBPopupRoundShadowImageView.swift; sourceTree = "<group>"; };
+		3267B66925836475007F79C4 /* PBChevronView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBChevronView.swift; path = Swift/PBChevronView.swift; sourceTree = "<group>"; };
+		3267B66A25836476007F79C4 /* UIViewController+Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Support.swift"; path = "Swift/UIViewController+Support.swift"; sourceTree = "<group>"; };
+		3267B66B25836476007F79C4 /* PBPopupContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBPopupContentView.swift; path = Swift/PBPopupContentView.swift; sourceTree = "<group>"; };
+		3267B66C25836476007F79C4 /* PBPopupCloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBPopupCloseButton.swift; path = Swift/PBPopupCloseButton.swift; sourceTree = "<group>"; };
+		3267B66D25836476007F79C4 /* PBPopupToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBPopupToolbar.swift; path = Swift/PBPopupToolbar.swift; sourceTree = "<group>"; };
+		3267B66E25836476007F79C4 /* UIViewController+Private.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Private.swift"; path = "Swift/UIViewController+Private.swift"; sourceTree = "<group>"; };
+		3267B66F25836476007F79C4 /* UIView+CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+CornerRadius.swift"; path = "Swift/UIView+CornerRadius.swift"; sourceTree = "<group>"; };
+		3267B67025836476007F79C4 /* PBPopupInteractivePresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBPopupInteractivePresentationController.swift; path = Swift/PBPopupInteractivePresentationController.swift; sourceTree = "<group>"; };
+		3267B67125836476007F79C4 /* UIColor+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Random.swift"; path = "Swift/UIColor+Random.swift"; sourceTree = "<group>"; };
+		3267B67225836476007F79C4 /* PBPopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBPopupController.swift; path = Swift/PBPopupController.swift; sourceTree = "<group>"; };
+		3267B67325836476007F79C4 /* UIView+Snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Snapshot.swift"; path = "Swift/UIView+Snapshot.swift"; sourceTree = "<group>"; };
+		3267B67425836476007F79C4 /* PBPopupBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PBPopupBar.swift; path = Swift/PBPopupBar.swift; sourceTree = "<group>"; };
+		3267B6852583668B007F79C4 /* UIViewController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Private.h"; path = "ObjC/UIViewController+Private.h"; sourceTree = "<group>"; };
+		3267B6862583668B007F79C4 /* UIViewController+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Private.m"; path = "ObjC/UIViewController+Private.m"; sourceTree = "<group>"; };
+		3267B6872583668B007F79C4 /* PBPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBPopupController.h; path = ObjC/PBPopupController.h; sourceTree = "<group>"; };
+		3267B68E25849C3F007F79C4 /* Exports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exports.swift; path = Swift/Exports.swift; sourceTree = "<group>"; };
+		3267B68F25849C3F007F79C4 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = Swift/CGRect.swift; sourceTree = "<group>"; };
+		3267B69025849C3F007F79C4 /* CGMathSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CGMathSwift; path = Swift/CGMathSwift; sourceTree = "<group>"; };
+		3267B69125849C3F007F79C4 /* CGMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGMath.swift; path = Swift/CGMath.swift; sourceTree = "<group>"; };
+		3267B69225849C3F007F79C4 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = Swift/CGPoint.swift; sourceTree = "<group>"; };
+		3267B69325849C3F007F79C4 /* CGVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGVector.swift; path = Swift/CGVector.swift; sourceTree = "<group>"; };
 		32DB359E253495130099EB80 /* PBPopupEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBPopupEnvironment.swift; sourceTree = "<group>"; };
 		32DB359F253495130099EB80 /* PBPopupPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBPopupPreferences.swift; sourceTree = "<group>"; };
 		32DB35A0253495130099EB80 /* PBPopupViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBPopupViewWrapper.swift; sourceTree = "<group>"; };
@@ -76,7 +81,6 @@
 		32DB35A5253495140099EB80 /* UIViewPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPreview.swift; sourceTree = "<group>"; };
 		32DB35A6253495140099EB80 /* PBPopupState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBPopupState.swift; sourceTree = "<group>"; };
 		32DB35A7253495140099EB80 /* PBPopupUIContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBPopupUIContentController.swift; sourceTree = "<group>"; };
-		32E1F39C21AFCEEB009A1DF1 /* UIView+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CornerRadius.swift"; sourceTree = "<group>"; };
 		32E52FE420DA1A2A00A6A11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,25 +116,30 @@
 			isa = PBXGroup;
 			children = (
 				32DB359D253494B30099EB80 /* SwiftUIWrapper */,
-				328BDCD720DE099E00682698 /* CGMathSwift */,
-				32559939209063AC009047FB /* PBChevronView.swift */,
-				3255993D2091BE00009047FB /* PBPopupCloseButton.swift */,
-				326ECE2721CF8CBD0022AD43 /* PBPopupBar.swift */,
-				3202B69521CCC8C900201B6F /* PBPopupToolbar.swift */,
-				32AD7596217A3A6D002FFE17 /* PBPopupContentView.swift */,
-				32080BFB208716140017FECD /* PBPopupController.swift */,
-				325626DE20FC74AC008739D6 /* PBPopupPresentationController.swift */,
-				32BA2A9C20E88A3F00226FEE /* PBPopupInteractivePresentationController.swift */,
-				326DB7FC21A16A6400E28986 /* PBPopupRoundShadowImageView.swift */,
-				32080BFA208716140017FECD /* UIViewController+Private.swift */,
-				32080BF8208716140017FECD /* UIViewController+Support.swift */,
-				32B1E210209ABC2D00143DA6 /* UIColor+Random.swift */,
-				325E5556209D9B8A0055E09F /* UIView+Snapshot.swift */,
-				32E1F39C21AFCEEB009A1DF1 /* UIView+CornerRadius.swift */,
-				32080C0520871C220017FECD /* UIViewController+Private.h */,
-				32080C0720871C220017FECD /* UIViewController+Private.m */,
-				326ECE2521CF80580022AD43 /* PBPopupLogs.swift */,
-				32080BEC208715920017FECD /* PBPopupController.h */,
+				3267B69125849C3F007F79C4 /* CGMath.swift */,
+				3267B67425836476007F79C4 /* PBPopupBar.swift */,
+				3267B66C25836476007F79C4 /* PBPopupCloseButton.swift */,
+				3267B66925836475007F79C4 /* PBChevronView.swift */,
+				3267B66B25836476007F79C4 /* PBPopupContentView.swift */,
+				3267B67225836476007F79C4 /* PBPopupController.swift */,
+				3267B67025836476007F79C4 /* PBPopupInteractivePresentationController.swift */,
+				3267B66725836475007F79C4 /* PBPopupLogs.swift */,
+				3267B67125836476007F79C4 /* UIColor+Random.swift */,
+				3267B66F25836476007F79C4 /* UIView+CornerRadius.swift */,
+				3267B67325836476007F79C4 /* UIView+Snapshot.swift */,
+				3267B66D25836476007F79C4 /* PBPopupToolbar.swift */,
+				3267B66E25836476007F79C4 /* UIViewController+Private.swift */,
+				3267B66625836475007F79C4 /* PBPopupPresentationController.swift */,
+				3267B66825836475007F79C4 /* PBPopupRoundShadowImageView.swift */,
+				3267B66A25836476007F79C4 /* UIViewController+Support.swift */,
+				3267B6872583668B007F79C4 /* PBPopupController.h */,
+				3267B6852583668B007F79C4 /* UIViewController+Private.h */,
+				3267B6862583668B007F79C4 /* UIViewController+Private.m */,
+				3267B69025849C3F007F79C4 /* CGMathSwift */,
+				3267B69225849C3F007F79C4 /* CGPoint.swift */,
+				3267B68F25849C3F007F79C4 /* CGRect.swift */,
+				3267B69325849C3F007F79C4 /* CGVector.swift */,
+				3267B68E25849C3F007F79C4 /* Exports.swift */,
 				32E52FE420DA1A2A00A6A11E /* Assets.xcassets */,
 				32080BED208715920017FECD /* Info.plist */,
 			);
@@ -142,17 +151,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		328BDCD720DE099E00682698 /* CGMathSwift */ = {
-			isa = PBXGroup;
-			children = (
-				328BDCDD20DE09C300682698 /* CGMath.swift */,
-				323416E324619EFE0086E85A /* CGVector.swift */,
-				323416E5246286450086E85A /* CGPoint.swift */,
-				323416E6246286450086E85A /* CGRect.swift */,
-			);
-			path = CGMathSwift;
 			sourceTree = "<group>";
 		};
 		32DB359D253494B30099EB80 /* SwiftUIWrapper */ = {
@@ -179,8 +177,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32080BEE208715920017FECD /* PBPopupController.h in Headers */,
-				32080C0920871C230017FECD /* UIViewController+Private.h in Headers */,
+				3267B6A02584A818007F79C4 /* PBPopupController.h in Headers */,
+				3267B6882583668B007F79C4 /* UIViewController+Private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +209,12 @@
 		32080BE0208715920017FECD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Patrick BODET";
 				TargetAttributes = {
 					32080BE8208715920017FECD = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1100;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -243,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3267B69625849C3F007F79C4 /* CGMathSwift in Resources */,
 				32E52FE520DA1A2A00A6A11E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,36 +253,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				328BDCE420DE09C300682698 /* CGMath.swift in Sources */,
+				3267B67525836477007F79C4 /* PBPopupPresentationController.swift in Sources */,
+				3267B69925849C3F007F79C4 /* CGVector.swift in Sources */,
 				32DB35AD253495140099EB80 /* UIViewControllerPreview.swift in Sources */,
-				326DB7FE21A1733200E28986 /* PBPopupRoundShadowImageView.swift in Sources */,
-				32BA2A9D20E88A3F00226FEE /* PBPopupInteractivePresentationController.swift in Sources */,
-				3255993A209063AC009047FB /* PBChevronView.swift in Sources */,
-				32C045B921A7DD840028DB85 /* PBPopupPresentationController.swift in Sources */,
+				3267B67925836477007F79C4 /* UIViewController+Support.swift in Sources */,
+				3267B6892583668B007F79C4 /* UIViewController+Private.m in Sources */,
+				3267B67725836477007F79C4 /* PBPopupRoundShadowImageView.swift in Sources */,
+				3267B67A25836477007F79C4 /* PBPopupContentView.swift in Sources */,
+				3267B67C25836477007F79C4 /* PBPopupToolbar.swift in Sources */,
+				3267B67E25836477007F79C4 /* UIView+CornerRadius.swift in Sources */,
+				3267B68025836477007F79C4 /* UIColor+Random.swift in Sources */,
+				3267B67F25836477007F79C4 /* PBPopupInteractivePresentationController.swift in Sources */,
+				3267B67625836477007F79C4 /* PBPopupLogs.swift in Sources */,
 				32DB35B1253495140099EB80 /* PBPopupUIContentController.swift in Sources */,
-				3202B69621CCC8C900201B6F /* PBPopupToolbar.swift in Sources */,
-				32080C02208716140017FECD /* UIViewController+Private.swift in Sources */,
+				3267B67B25836477007F79C4 /* PBPopupCloseButton.swift in Sources */,
 				32DB35AA253495140099EB80 /* PBPopupViewWrapper.swift in Sources */,
+				3267B68325836477007F79C4 /* PBPopupBar.swift in Sources */,
 				32DB35A9253495140099EB80 /* PBPopupPreferences.swift in Sources */,
-				323416E424619EFE0086E85A /* CGVector.swift in Sources */,
-				32080C03208716140017FECD /* PBPopupController.swift in Sources */,
-				326ECE2621CF80580022AD43 /* PBPopupLogs.swift in Sources */,
-				32080C0B20871C230017FECD /* UIViewController+Private.m in Sources */,
+				3267B69425849C3F007F79C4 /* Exports.swift in Sources */,
 				32DB35B0253495140099EB80 /* PBPopupState.swift in Sources */,
-				32AD7597217A3A6D002FFE17 /* PBPopupContentView.swift in Sources */,
-				326ECE2821CF8CBD0022AD43 /* PBPopupBar.swift in Sources */,
-				325E5557209D9B8A0055E09F /* UIView+Snapshot.swift in Sources */,
-				32E1F39D21AFCEEB009A1DF1 /* UIView+CornerRadius.swift in Sources */,
+				3267B69725849C3F007F79C4 /* CGMath.swift in Sources */,
+				3267B68125836477007F79C4 /* PBPopupController.swift in Sources */,
+				3267B68225836477007F79C4 /* UIView+Snapshot.swift in Sources */,
 				32DB35AE253495140099EB80 /* PBPopupUI.swift in Sources */,
-				323416E7246286460086E85A /* CGPoint.swift in Sources */,
-				32B1E211209ABC2D00143DA6 /* UIColor+Random.swift in Sources */,
 				32DB35AC253495140099EB80 /* PBPopupProxyViewController.swift in Sources */,
-				32080C00208716140017FECD /* UIViewController+Support.swift in Sources */,
 				32DB35AB253495140099EB80 /* PBPopupUICustomBarViewController.swift in Sources */,
-				3255993E2091BE00009047FB /* PBPopupCloseButton.swift in Sources */,
 				32DB35AF253495140099EB80 /* UIViewPreview.swift in Sources */,
-				323416E8246286460086E85A /* CGRect.swift in Sources */,
+				3267B67D25836477007F79C4 /* UIViewController+Private.swift in Sources */,
+				3267B69825849C3F007F79C4 /* CGPoint.swift in Sources */,
+				3267B67825836477007F79C4 /* PBChevronView.swift in Sources */,
 				32DB35A8253495140099EB80 /* PBPopupEnvironment.swift in Sources */,
+				3267B69525849C3F007F79C4 /* CGRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +316,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -380,6 +381,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
