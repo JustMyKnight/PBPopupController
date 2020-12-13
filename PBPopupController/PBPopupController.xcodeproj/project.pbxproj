@@ -26,7 +26,6 @@
 		3267B6892583668B007F79C4 /* UIViewController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 3267B6862583668B007F79C4 /* UIViewController+Private.m */; };
 		3267B69425849C3F007F79C4 /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B68E25849C3F007F79C4 /* Exports.swift */; };
 		3267B69525849C3F007F79C4 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B68F25849C3F007F79C4 /* CGRect.swift */; };
-		3267B69625849C3F007F79C4 /* CGMathSwift in Resources */ = {isa = PBXBuildFile; fileRef = 3267B69025849C3F007F79C4 /* CGMathSwift */; };
 		3267B69725849C3F007F79C4 /* CGMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69125849C3F007F79C4 /* CGMath.swift */; };
 		3267B69825849C3F007F79C4 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69225849C3F007F79C4 /* CGPoint.swift */; };
 		3267B69925849C3F007F79C4 /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69325849C3F007F79C4 /* CGVector.swift */; };
@@ -67,7 +66,6 @@
 		3267B6872583668B007F79C4 /* PBPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PBPopupController.h; path = ObjC/PBPopupController.h; sourceTree = "<group>"; };
 		3267B68E25849C3F007F79C4 /* Exports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exports.swift; path = Swift/Exports.swift; sourceTree = "<group>"; };
 		3267B68F25849C3F007F79C4 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = Swift/CGRect.swift; sourceTree = "<group>"; };
-		3267B69025849C3F007F79C4 /* CGMathSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CGMathSwift; path = Swift/CGMathSwift; sourceTree = "<group>"; };
 		3267B69125849C3F007F79C4 /* CGMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGMath.swift; path = Swift/CGMath.swift; sourceTree = "<group>"; };
 		3267B69225849C3F007F79C4 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = Swift/CGPoint.swift; sourceTree = "<group>"; };
 		3267B69325849C3F007F79C4 /* CGVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGVector.swift; path = Swift/CGVector.swift; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 				3267B6872583668B007F79C4 /* PBPopupController.h */,
 				3267B6852583668B007F79C4 /* UIViewController+Private.h */,
 				3267B6862583668B007F79C4 /* UIViewController+Private.m */,
-				3267B69025849C3F007F79C4 /* CGMathSwift */,
 				3267B69125849C3F007F79C4 /* CGMath.swift */,
 				3267B69225849C3F007F79C4 /* CGPoint.swift */,
 				3267B68F25849C3F007F79C4 /* CGRect.swift */,
@@ -241,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3267B69625849C3F007F79C4 /* CGMathSwift in Resources */,
 				32E52FE520DA1A2A00A6A11E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
