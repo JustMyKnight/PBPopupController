@@ -19,4 +19,10 @@ FOUNDATION_EXPORT const unsigned char PBPopupControllerVersionString[];
 #import "UIViewController+Private.h"
 #else
 #import <PBPopupController/UIViewController+Private.h>
+//#import <UIViewController+Private.h>
 #endif
+//#import <PBPopupController/UIViewController+Private.h>
+//#import "UIViewController+Private.h"
+
+
+
