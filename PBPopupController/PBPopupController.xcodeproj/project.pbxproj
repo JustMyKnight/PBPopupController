@@ -22,7 +22,7 @@
 		3267B68125836477007F79C4 /* PBPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B67225836476007F79C4 /* PBPopupController.swift */; };
 		3267B68225836477007F79C4 /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B67325836476007F79C4 /* UIView+Snapshot.swift */; };
 		3267B68325836477007F79C4 /* PBPopupBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B67425836476007F79C4 /* PBPopupBar.swift */; };
-		3267B6882583668B007F79C4 /* UIViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3267B6852583668B007F79C4 /* UIViewController+Private.h */; };
+		3267B6882583668B007F79C4 /* UIViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3267B6852583668B007F79C4 /* UIViewController+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3267B6892583668B007F79C4 /* UIViewController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 3267B6862583668B007F79C4 /* UIViewController+Private.m */; };
 		3267B69425849C3F007F79C4 /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B68E25849C3F007F79C4 /* Exports.swift */; };
 		3267B69525849C3F007F79C4 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B68F25849C3F007F79C4 /* CGRect.swift */; };
@@ -30,7 +30,7 @@
 		3267B69725849C3F007F79C4 /* CGMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69125849C3F007F79C4 /* CGMath.swift */; };
 		3267B69825849C3F007F79C4 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69225849C3F007F79C4 /* CGPoint.swift */; };
 		3267B69925849C3F007F79C4 /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69325849C3F007F79C4 /* CGVector.swift */; };
-		3267B6A02584A818007F79C4 /* PBPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3267B6872583668B007F79C4 /* PBPopupController.h */; };
+		3267B6A02584A818007F79C4 /* PBPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3267B6872583668B007F79C4 /* PBPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32DB35A8253495140099EB80 /* PBPopupEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB359E253495130099EB80 /* PBPopupEnvironment.swift */; };
 		32DB35A9253495140099EB80 /* PBPopupPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB359F253495130099EB80 /* PBPopupPreferences.swift */; };
 		32DB35AA253495140099EB80 /* PBPopupViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB35A0253495130099EB80 /* PBPopupViewWrapper.swift */; };
@@ -116,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				32DB359D253494B30099EB80 /* SwiftUIWrapper */,
-				3267B69125849C3F007F79C4 /* CGMath.swift */,
 				3267B67425836476007F79C4 /* PBPopupBar.swift */,
 				3267B66C25836476007F79C4 /* PBPopupCloseButton.swift */,
 				3267B66925836475007F79C4 /* PBChevronView.swift */,
@@ -136,6 +135,7 @@
 				3267B6852583668B007F79C4 /* UIViewController+Private.h */,
 				3267B6862583668B007F79C4 /* UIViewController+Private.m */,
 				3267B69025849C3F007F79C4 /* CGMathSwift */,
+				3267B69125849C3F007F79C4 /* CGMath.swift */,
 				3267B69225849C3F007F79C4 /* CGPoint.swift */,
 				3267B68F25849C3F007F79C4 /* CGRect.swift */,
 				3267B69325849C3F007F79C4 /* CGVector.swift */,

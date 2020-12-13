@@ -13,8 +13,7 @@ let package = Package(
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
             name: "PBPopupController",
-            //type: .static,
-            targets: ["PBPopupController_Swift", "PBPopupController_ObjC"]),
+            targets: ["PBPopupController", "PBPopupController_ObjC"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -27,15 +26,15 @@ let package = Package(
             name: "PBPopupController_ObjC",
             dependencies: [],
             path: "PBPopupController/PBPopupController/ObjC",
-            //exclude: ["Swift", "CGMathSwift", "SwiftUIWrapper", "Assets.xcassets"],
             publicHeadersPath: "include",
             cSettings: [
+                //.headerSearchPath("include"),
                 .headerSearchPath("."),
                 .headerSearchPath("PBPopupController/PBPopupController/ObjC")
             ]
         ),
         .target(
-            name: "PBPopupController_Swift",
+            name: "PBPopupController",
             dependencies: ["PBPopupController_ObjC"],
             path: "PBPopupController/PBPopupController/Swift"
         )
