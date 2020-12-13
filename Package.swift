@@ -30,13 +30,15 @@ let package = Package(
             cSettings: [
                 //.headerSearchPath("include"),
                 .headerSearchPath("."),
-                .headerSearchPath("PBPopupController/PBPopupController/ObjC")
+                .headerSearchPath("PBPopupController/PBPopupController/ObjC"),
+                .define("SWIFT_PACKAGE")
             ]
         ),
         .target(
             name: "PBPopupController",
             dependencies: ["PBPopupController_ObjC"],
-            path: "PBPopupController/PBPopupController/Swift"
+            path: "PBPopupController/PBPopupController/Swift",
+            swiftSettings: [ .define("SWIFT_PACKAGE") ]
         )
     ]
 )
