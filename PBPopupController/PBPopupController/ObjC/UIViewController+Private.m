@@ -9,7 +9,7 @@
 #import "PBPopupController.h"
 
 
-#if SWIFT_PACKAGE
+#if MY_SWIFT_PACKAGE
 #import "PBPopupController-Swift.h"
 #else
 #import <PBPopupController/PBPopupController-Swift.h>

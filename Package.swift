@@ -31,14 +31,14 @@ let package = Package(
                 //.headerSearchPath("include"),
                 .headerSearchPath("."),
                 .headerSearchPath("PBPopupController/PBPopupController/ObjC"),
-                .define("SWIFT_PACKAGE")
+                .define("MY_SWIFT_PACKAGE")
             ]
         ),
         .target(
             name: "PBPopupController",
             dependencies: ["PBPopupController_ObjC"],
             path: "PBPopupController/PBPopupController/Swift",
-            swiftSettings: [ .define("SWIFT_PACKAGE") ]
+            swiftSettings: [ .define("MY_SWIFT_PACKAGE") ]
         )
     ]
 )

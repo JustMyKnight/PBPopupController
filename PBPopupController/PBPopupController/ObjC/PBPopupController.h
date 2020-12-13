@@ -15,7 +15,7 @@ FOUNDATION_EXPORT double PBPopupControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char PBPopupControllerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PBPopupController/PublicHeader.h>
-#if SWIFT_PACKAGE
+#if MY_SWIFT_PACKAGE
 #import "UIViewController+Private.h"
 #else
 #import <PBPopupController/UIViewController+Private.h>
