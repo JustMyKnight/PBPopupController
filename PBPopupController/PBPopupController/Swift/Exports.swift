@@ -6,6 +6,6 @@
 //
 
 #if MY_SWIFT_PACKAGE
-@_exported import PBPopupController_ObjC
+//@_exported import PBPopupController_ObjC
 #endif
 //import PBPopupController_ObjC

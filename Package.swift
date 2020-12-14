@@ -25,14 +25,14 @@ let package = Package(
         .target(
             name: "PBPopupController_ObjC",
             dependencies: [],
-            path: "PBPopupController/PBPopupController/ObjC",
-            publicHeadersPath: "include",
-            cSettings: [
+            path: "PBPopupController/PBPopupController/ObjC"
+            //publicHeadersPath: "include"
+            //cSettings: [
                 //.headerSearchPath("include"),
-                .headerSearchPath("."),
-                .headerSearchPath("PBPopupController/PBPopupController/ObjC"),
+                //.headerSearchPath("."),
+                //.headerSearchPath("PBPopupController/PBPopupController/ObjC"),
                 //.define("MY_SWIFT_PACKAGE")
-            ]
+            //]
         ),
         .target(
             name: "PBPopupController",
