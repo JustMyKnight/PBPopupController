@@ -29,7 +29,7 @@
 		3267B69825849C3F007F79C4 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69225849C3F007F79C4 /* CGPoint.swift */; };
 		3267B69925849C3F007F79C4 /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3267B69325849C3F007F79C4 /* CGVector.swift */; };
 		3267B6A02584A818007F79C4 /* PBPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3267B6872583668B007F79C4 /* PBPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32A9635B25875FA10013D271 /* UIViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A9635A25875FA10013D271 /* UIViewController+Private.h */; };
+		32A9635B25875FA10013D271 /* UIViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A9635A25875FA10013D271 /* UIViewController+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32DB35A8253495140099EB80 /* PBPopupEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB359E253495130099EB80 /* PBPopupEnvironment.swift */; };
 		32DB35A9253495140099EB80 /* PBPopupPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB359F253495130099EB80 /* PBPopupPreferences.swift */; };
 		32DB35AA253495140099EB80 /* PBPopupViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB35A0253495130099EB80 /* PBPopupViewWrapper.swift */; };
@@ -435,6 +435,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = iDevelopper.PBPopupController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = iDevelopper.PBPopupController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
